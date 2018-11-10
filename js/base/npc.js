@@ -3,6 +3,8 @@ let screenWidth = window.innerWidth
 
 export default class npc {
   constructor(turntable) {
+    
+    
     this.turntable = turntable;
     this.img = new Image()
     this.img.src = 'images/lucky-bg.png';
